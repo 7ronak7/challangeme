@@ -67,8 +67,8 @@ export function ChallengeGenerator() {
           relative overflow-hidden
           text-2xl sm:text-3xl font-bold
           h-24 sm:h-32 w-64 sm:w-80
-          bg-gradient-to-r from-indigo-500 to-purple-600
-          hover:from-purple-600 hover:to-indigo-500
+          bg-gradient-to-r from-red-500 to-red-600
+          hover:from-red-600 hover:to-red-500
           text-white
           rounded-lg
           transform hover:scale-105
@@ -79,7 +79,7 @@ export function ChallengeGenerator() {
       >
         <span className="relative z-10">Dare Me</span>
         <span className="absolute inset-0 bg-black opacity-10 hover:opacity-0 transition-opacity duration-300"></span>
-        <span className="absolute -inset-full top-0 block w-full h-full bg-gradient-to-r from-purple-400 to-indigo-500 opacity-30 filter blur-xl transform -skew-y-12 transition-all duration-300 ease-in-out"></span>
+        <span className="absolute -inset-full top-0 block w-full h-full bg-gradient-to-r from-red-400 to-red-500 opacity-30 filter blur-xl transform -skew-y-12 transition-all duration-300 ease-in-out"></span>
       </Button>
       {challenge && (
         <div 
